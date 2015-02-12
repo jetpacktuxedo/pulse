@@ -1,38 +1,39 @@
+Owner			
+-------			
+id                  serial
+first   			      varchar
+last    			      varchar
+email			          varchar
+
 Patient
 -------
-ID
-BadgeID
-Name
-Weight
-Sex
-Species
-Breed
-FK-->OwnerID
+id                  serial
+badgeid             varchar
+name		            varchar	
+weight			        float4
+sex			            bool
+species			        varchar
+breed			          varchar
+FK-->ownerid			
 
-Owner
--------
-ID
-FirstName
-LastName
-Email
+Visit			
+-------			
+id                  serial
+badgeid             varchar
+date			          date
+FK-->patientiD			
 
-Visit
--------
-ID
-Date
-FK-->PatientID
-
-TPR
--------
-ID
-Time
-Temperature
-Pulse
-Respiration
-Pressure_diastolic
-Pressure_systolic
-ETCO2
-SP02
-Anasthetic
-Fluids
-FK-->VisitID
+TPR			
+-------			
+id                  serial
+time			          timestamp
+temp      			    float4
+pulse			          int2
+resp      			    int2
+presd             	int2
+press           		int2
+etcO2			          int2
+sp02			          int2
+anasthetic			    int2
+fluids			        int2
+FK-->VisitID			
