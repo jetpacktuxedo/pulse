@@ -29,10 +29,10 @@ Time
 Temperature
 Pulse
 Respiration
-Pressure_mean
 Pressure_diastolic
 Pressure_systolic
 ETCO2
 SP02
 Anasthetic
+Fluids
 FK-->VisitID
