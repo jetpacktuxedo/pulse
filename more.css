@@ -1,0 +1,30 @@
+/* Make the title bar a different color */
+.navbar-color {
+    background-color: #79CDCD;
+}
+
+.navbar-text-dark {
+    color: #020202;
+}
+
+/* Defaults */
+.form-control::-moz-placeholder {
+    color: #909090;
+}
+.form-control:-ms-input-placeholder {
+    color: #909090;
+}
+.form-control::-webkit-input-placeholder {
+    color: #909090;
+}
+
+/* Navbar forms (cough cough search box)  */
+.form-control::-moz-placeholder {
+    color: #959595;
+}
+.form-control:-ms-input-placeholder {
+    color: #959595;
+}
+.form-control::-webkit-input-placeholder {
+    color: #959595;
+}
