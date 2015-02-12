@@ -31,7 +31,8 @@ Pulse
 Respiration
 Pressure_mean
 Pressure_diastolic
-Pressure_mean
+Pressure_systolic
 ETCO2
 SP02
+Anasthetic
 FK-->VisitID
