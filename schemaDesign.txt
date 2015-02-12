@@ -33,5 +33,5 @@ Pressure_mean
 Pressure_diastolic
 Pressure_mean
 ETCO2
-Oxygen Concentration
+SP02
 FK-->VisitID
