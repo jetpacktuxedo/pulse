@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#2196F3">
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-    <link href="paper.css" rel="stylesheet">
-    <link href="more.css" rel="stylesheet">
+    <link href="style/paper.css" rel="stylesheet">
+    <link href="style/more.css" rel="stylesheet">
     <style>
       Body{
       padding-top: 100px;
@@ -64,7 +64,7 @@
                       </tr>
                     </thead>
                     <?php 
-                      include'recentPatients.php';
+                      include'dynamic/recentPatients.php';
                     ?>
                 </table>
               </div>
@@ -79,13 +79,13 @@
               <h4>New Patient</h4>
             </div>
             <div class="panel-body">
-              <form class="form-horizontal">
+              <form action="dynamic/test.php" method="post" class="form-horizontal">
 
                 <!--Owner First Name Input -->
                 <div class="form-group">
                   <label for="ownerFirst" class="col-lg-3 control-label">Owner First Name</label>
                   <div class="col-lg-6">
-                    <input class="form-control" id="patientName" placeholder="John" type="text">
+                    <input class="form-control" id="ownerFirst" placeholder="John" type="text" name="ownerFirst">
                   </div>
                 </div>
 
@@ -93,7 +93,7 @@
                 <div class="form-group">
                   <label for="ownerLast" class="col-lg-3 control-label">Owner Last Name</label>
                   <div class="col-lg-6">
-                    <input class="form-control" id="patientName" placeholder="Smith" type="text">
+                    <input class="form-control" id="ownerLast" placeholder="Smith" type="text" name="ownerLast">
                   </div>
                 </div>
 
@@ -101,7 +101,7 @@
                 <div class="form-group">
                   <label for="ownerEmail" class="col-lg-3 control-label">Owner Email</label>
                   <div class="col-lg-6">
-                    <input class="form-control" id="patientName" placeholder="jsmith@hotmail.com" type="text">
+                    <input class="form-control" id="ownerEmail" placeholder="jsmith@hotmail.com" type="text" name="ownerEmail">
                   </div>
                 </div>
 
@@ -109,7 +109,7 @@
                 <div class="form-group">
                   <label for="patientName" class="col-lg-3 control-label">Patient Name</label>
                   <div class="col-lg-6">
-                    <input class="form-control" id="patientName" placeholder="Fluffy" type="text">
+                    <input class="form-control" id="patientName" placeholder="Fluffy" type="text" name="patientName">
                   </div>
                 </div>
 
@@ -117,11 +117,11 @@
                 <div class="form-group">
                   <label for="patientWeight" class="col-lg-3 control-label">Patient Weight</label>
                   <div class="col-lg-4">
-                    <input class="form-control" id="patientWeight" placeholder="Weight" type="text">
+                    <input class="form-control" id="patientWeight" placeholder="Weight" type="text" name="patientWeight">
                   </div>
 
                   <div class="col-lg-2">
-                    <select class="form-control">
+                    <select class="form-control" name="weightType">
                       <option>kg</option>
                       <option>lbs</option>
                     </select>
@@ -132,19 +132,19 @@
                 <div class="form-group">
                   <label class="col-lg-3 control-label">Sex</label>
                   <div class="col-lg-6">
-                    <div class="radio-inline"><label><input name="optionsRadios" id="sexradiom" value="male" checked="" type="radio">Male</label></div>
-                    <div class="radio-inline"><label><input name="optionsRadios" id="sexradiof" value="female" type="radio">Female</label></div>
+                    <div class="radio-inline"><label><input name="sexRadio" id="sexradiom" value="male" checked="" type="radio">Male</label></div>
+                    <div class="radio-inline"><label><input name="sexRadio" id="sexradiof" value="female" type="radio">Female</label></div>
                   </div>
                 </div>
 
                 <div class="form-group">
                   <label class="col-lg-3 control-label">Species</label>
                   <div class="col-lg-3">
-                    <div class="radio"><label><input name="optionsRadios" id="optionsRadios1" value="dog" checked="" type="radio">Dog</label></div>
-                    <div class="radio"><label><input name="optionsRadios" id="optionsRadios2" value="cat" type="radio">Cat</label></div>
-                    <div class="radio"><label><input name="optionsRadios" id="optionsRadios3" value="rat" type="radio">Rat</label></div>
-                    <div class="radio"><label><input name="optionsRadios" id="optionsRadios4" value="horse" type="radio">Horse</label></div>
-                    <div class="radio"><label><input name="optionsRadios" id="optionsRadios5" value="cow" type="radio">Cow</label></div>
+                    <div class="radio"><label><input name="speciesRadio" id="optionsRadios1" value="dog" checked="" type="radio">Dog</label></div>
+                    <div class="radio"><label><input name="speciesRadio" id="optionsRadios2" value="cat" type="radio">Cat</label></div>
+                    <div class="radio"><label><input name="speciesRadio" id="optionsRadios3" value="rat" type="radio">Rat</label></div>
+                    <div class="radio"><label><input name="speciesRadio" id="optionsRadios4" value="horse" type="radio">Horse</label></div>
+                    <div class="radio"><label><input name="speciesRadio" id="optionsRadios5" value="cow" type="radio">Cow</label></div>
                   </div>
                 </div>
 
