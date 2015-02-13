@@ -1,46 +1,9 @@
 <!doctype html>
 <html>
-  <head>
-    <title>Pulse</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#2196F3">
-    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-    <link href="style/paper.css" rel="stylesheet">
-    <link href="style/more.css" rel="stylesheet">
-    <style>
-      Body{
-      padding-top: 100px;
-      padding-bottom:50px;
-        }
-    </style>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-
-  </head>
+  <?php include'templates/header.php';?>
 
   <body>
-    <!--BEGIN NAVBAR-->
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Pulse</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right" role="form">
-            <div class="form-group">
-              <input type="text" placeholder="Search Patients" class="form-control nav-form-control">
-            </div>
-          </form>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </div>
-    <!--END NAVBAR-->    
+  <?php include'templates/navbar.php';?>
 
     <!--BEGIN NORMAL BODY-->
     <div class="container">
