@@ -63,11 +63,9 @@
                         <th>Patient Name</th>
                       </tr>
                     </thead>
-                    <tbody>
-                      <?php 
-                      include'table.php';
-                      ?>
-                    </tbody>
+                    <?php 
+                      include'recentPatients.php';
+                    ?>
                 </table>
               </div>
             </div> 
