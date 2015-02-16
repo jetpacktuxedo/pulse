@@ -48,20 +48,20 @@
 
                 <!--Patient Name Input -->
                 <div class="form-group">
-                  <label for="patientName" class="col-lg-3 control-label">Patient Name</label>
-                  <div class="col-lg-8">
+                  <label for="patientName" class="col-sm-3 control-label">Patient Name</label>
+                  <div class="col-sm-8">
                     <input class="form-control" id="patientName" placeholder="Fluffy" type="text" name="patientName">
                   </div>
                 </div>
 
                 <!--Patient Weight Input -->
                 <div class="form-group">
-                  <label for="patientWeight" class="col-lg-3 control-label">Patient Weight</label>
-                  <div class="col-lg-5">
+                  <label for="patientWeight" class="col-sm-3 control-label">Patient Weight</label>
+                  <div class="col-sm-5">
                     <input class="form-control" id="patientWeight" placeholder="Weight" type="text" name="patientWeight">
                   </div>
 
-                  <div class="col-lg-3">
+                  <div class="col-sm-3">
                     <select class="form-control" name="weightType">
                       <option>kg</option>
                       <option>lbs</option>
@@ -71,16 +71,16 @@
 
                 <!--Owner First Name Input -->
                 <div class="form-group">
-                  <label class="col-lg-3 control-label">Sex</label>
-                  <div class="col-lg-6">
+                  <label class="col-sm-3 control-label">Sex</label>
+                  <div class="col-sm-6">
                     <div class="radio-inline"><label><input name="sexRadio" id="sexradiom" value="male" checked="" type="radio">Male</label></div>
                     <div class="radio-inline"><label><input name="sexRadio" id="sexradiof" value="female" type="radio">Female</label></div>
                   </div>
                 </div>
 
                 <div class="form-group">
-                  <label class="col-lg-3 control-label">Species</label>
-                  <div class="col-lg-3">
+                  <label class="col-sm-3 control-label">Species</label>
+                  <div class="col-sm-3">
                     <select class="form-control" name="Species">
                       <option>Dog</option>
                       <option>Cat</option>
@@ -93,7 +93,7 @@
                 </div>
 
                 <div class="form-group">
-                  <div class="col-lg-6 col-lg-offset-3">
+                  <div class="col-sm-6 col-sm-offset-3">
                     <button class="btn btn-default">Cancel</button>
                     <button type="submit" class="btn btn-primary">Submit</button>
                   </div>

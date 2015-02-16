@@ -46,30 +46,30 @@
 
                 <!--Owner First Name Input -->
                 <div class="form-group">
-                  <label for="ownerFirst" class="col-lg-3 control-label">Owner First Name</label>
-                  <div class="col-lg-6">
+                  <label for="ownerFirst" class="col-sm-3 control-label">Owner First Name</label>
+                  <div class="col-sm-6">
                     <input class="form-control" id="ownerFirst" placeholder="John" type="text" name="ownerFirst">
                   </div>
                 </div>
 
                 <!--Owner Last Name Input -->
                 <div class="form-group">
-                  <label for="ownerLast" class="col-lg-3 control-label">Owner Last Name</label>
-                  <div class="col-lg-6">
+                  <label for="ownerLast" class="col-sm-3 control-label">Owner Last Name</label>
+                  <div class="col-sm-6">
                     <input class="form-control" id="ownerLast" placeholder="Smith" type="text" name="ownerLast">
                   </div>
                 </div>
 
                 <!--Owner Email Input -->
                 <div class="form-group">
-                  <label for="ownerEmail" class="col-lg-3 control-label">Owner Email</label>
-                  <div class="col-lg-6">
+                  <label for="ownerEmail" class="col-sm-3 control-label">Owner Email</label>
+                  <div class="col-sm-6">
                     <input class="form-control" id="ownerEmail" placeholder="jsmith@hotmail.com" type="text" name="ownerEmail">
                   </div>
                 </div>
 
                 <div class="form-group">
-                  <div class="col-lg-6 col-lg-offset-3">
+                  <div class="col-sm-6 col-sm-offset-3">
                     <button class="btn btn-default">Cancel</button>
                     <button type="submit" class="btn btn-primary">Submit</button>
                   </div>
