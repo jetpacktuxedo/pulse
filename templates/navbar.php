@@ -18,7 +18,7 @@
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <div class="col-lg-6">
+            <div class="col-xl-6">
               <form class="navbar-form navbar-left" role="search">
                 <div class="form-group">
                   <input type="text" placeholder="Search Patients" class="form-control nav-form-control">
