@@ -8,14 +8,25 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Pulse</a>
+          <a class="navbar-brand" href="/pulse">Pulse</a>
         </div>
         <div class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right" role="form">
-            <div class="form-group">
-              <input type="text" placeholder="Search Patients" class="form-control nav-form-control">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+            <li><a href="owner.php">Owners</a></li>
+            <li><a href="patient.php">Patients</a></li>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <div class="col-lg-6">
+              <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                  <input type="text" placeholder="Search Patients" class="form-control nav-form-control">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
             </div>
-          </form>
-        </div><!--/.navbar-collapse -->
+          </ul>
+        </div>
       </div>
     </div>

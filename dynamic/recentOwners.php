@@ -5,8 +5,7 @@
 $dbconn = pg_connect("host=localhost dbname=pulse user=pulsemaster password=pulse") or die('could not connect: ' . pg_last_error());
 
 //Build Query
-$query = 'SELECT patient.id, owner.first || \' \' || owner.last, patient.name, patient.weight, patient.breed FROM patient INNER JOIN owner ON patient.ownerid=owner.id';
-
+$query = 'SELECT owner.id, owner.first || \' \' || owner.last, owner.email FROM owner';
 $result = pg_query($query) or die('Query failed: ' . pg_last_error());
 
 // Printing results in HTML
