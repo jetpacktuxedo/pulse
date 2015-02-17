@@ -39,7 +39,7 @@
         <div class="col-md-6">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h4>New Patient</h4>
+              <h4>New Owner</h4>
             </div>
             <div class="panel-body">
               <form action="dynamic/test.php" method="post" class="form-horizontal">

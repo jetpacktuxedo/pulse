@@ -12,3 +12,5 @@ INSERT INTO patient (badgeid, name, weight, sex, species, breed, ownerid) VALUES
 INSERT INTO patient (badgeid, name, weight, sex, species, breed, ownerid) VALUES ('FakeBadge', 'Fluffy', 1, FALSE, 'dog', 'Lab', 4);
 INSERT INTO patient (badgeid, name, weight, sex, species, breed, ownerid) VALUES ('hereisabadge', 'Max', 14, TRUE, 'dog', 'Boston Terrier', 5);
 INSERT INTO patient (badgeid, name, weight, sex, species, breed, ownerid) VALUES ('morebadgesss', 'Clover', 0.5, TRUE, 'rat', 'The White and Black Kind', 5);
+
+INSERT INTO visit (badgeid, date, patientid) VALUES ('testBadgeHere', current_date, '2');
