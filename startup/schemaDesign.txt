@@ -10,16 +10,20 @@ Patient
 id                  serial
 badgeid             varchar
 name		            varchar	
-weight			        float4
 sex			            bool
 species			        varchar
-breed			          varchar
+dob                 date
 FK-->ownerid			
 
 Visit			
 -------			
 id                  serial
 badgeid             varchar
+procedure           varchar
+weight			        float4
+tubesize            
+systemtype          
+gastype             
 date			          date
 FK-->patientiD			
 

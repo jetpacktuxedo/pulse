@@ -19,7 +19,7 @@ name varchar,
 weight float4,
 sex bool,
 species varchar,
-breed varchar, OwnerID int references owner(ID)
+OwnerID int references owner(ID)
 );
 
 CREATE TABLE visit
